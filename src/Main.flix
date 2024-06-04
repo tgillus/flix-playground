@@ -8,5 +8,6 @@ def foo(): Unit \ IO =
     lst |> List.head |> println;
     lst |> List.map(x -> x + 1) |> println
 
-def main(): Unit \ IO = 
-    foo()
+def main(): Unit \ IO =
+    foo();
+    println("Hello World!")
